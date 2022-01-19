@@ -11,9 +11,9 @@ const btnHold = document.querySelector('.btn--hold');
 let currentScore0El = document.querySelector('#current--0');
 let currentScore1El = document.querySelector('#current--1');
 let cscore, activePlayer, scores, playing;
-const newFeature= function(){
-  console.log('Welcome to the PIG GAME');
-}
+// const newFeature= function(){
+//   console.log('Welcome to the PIG GAME');
+// }
 
 //initializing the values
 const init = function () {
@@ -32,7 +32,7 @@ const init = function () {
   player1El.classList.remove('player--winner');
   player0El.classList.add('player--active');
   player1El.classList.remove('player--active');
-  newFeature();
+ 
 };
 init();
 const switchPlayer = function () {
